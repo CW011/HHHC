@@ -57,10 +57,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     background-color: #42a593;
     margin: 10px 0px 10px 0px;
-    border-radius: 0% 5% 5% 0%;
     width: 50%;
 }
 
@@ -85,41 +83,66 @@ html {
 
 .mainpage-sections-middle {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5% 0% 0% 5%;
-    background-color: #42a593;
+    width: 100vw;
     height: 40vw;
+}
+
+.mainpage-sections-middle .contact-me {
+    border-color: #42a593;
+    border-style: solid;
+    margin: 0vw 1vw 0vw 1vw;
     width: 50vw;
 }
 
-.mainpage-sections-middle p {
-    width: 60%;
-    animation: fadeIn 1.5s;
-}
-
-.mainpage-sections-bottom {
+.mainpage-sections-middle .mid-text {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #42a593;
-    border-radius: 5%;
+    width: 50vw;
+}
+
+.mainpage-sections-middle .mid-text p {
+    width: 70%;
+    animation: fadeIn 1.5s;
+}
+
+.mainpage-sections-middle .contact-me {
+    color: black;
+}
+
+.mainpage-sections-bottom {
+    display: flex;
+    justify-content: start;
+    align-items: center;
     margin: 10px;
-    width: 50%;
+    width: 100vw;
     height: 40vw;
+}
+
+.misc-img {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+.misc-img img {
+    max-width: 100%;
+    width: 15vw;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 20vw;
+    background-color: #42a593;
 }
 
 .mainpage-sections-bottom p {
     width: 80%;
 }
-
-.bottom-page-bar {
-    background-color: #42a593;
-    padding: 10px;
-    width: 100%;
-    height: 50px;
-}
-
 
 @keyframes fadeIn {
     0% {
