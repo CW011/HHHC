@@ -71,7 +71,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 40%;
     margin: 18px;
 }
 
@@ -138,6 +138,10 @@ html {
     width: 50vw;
     height: 20vw;
     background-color: #42a593;
+}
+
+.about-me p {
+    animation: fadeIn 1.5s;
 }
 
 .mainpage-sections-bottom p {
